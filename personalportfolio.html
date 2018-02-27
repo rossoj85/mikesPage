@@ -1,0 +1,164 @@
+
+<style>
+
+
+*{
+    margin:0;
+}
+
+html, body{
+    height:100%
+}
+.picborder{
+    border-color:black;
+    border-width:1px;
+    border-style:solid;
+    border-radius:50%;
+    
+
+}
+.medpic{
+    width:250px;
+    float:left;
+    position:relative;
+    top:20px;
+    left:5px;
+    
+}
+.hometext{
+    position:relative;
+    top:80px;
+}
+.projecttitle{
+    position:relative;
+    top:120px;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin-bottom:20px;
+}
+h1{
+    font-family: cursive;
+    color: rgba(0,0,0);
+    text-align: center;
+    position:absolute;
+    top:20%;
+    left: 50%;
+    transform: translatex(-50%) translatey(-50%);
+
+}
+h2{
+    font-family:cursive;
+    color:black;
+    text-align:center;
+
+
+}
+h3{
+    font-family: cursive;
+    color:black;
+    text-align:left;
+    font-size:35px;
+    
+
+}
+.medfont{
+    font-size:18px;
+
+}
+nav{
+    font-family: arial;
+    position:fixed;
+    height:50px;
+    width:100%;
+    background-color: rgba(0,0,0,.5);
+    text-align: center;
+    z-index: 99;
+}
+nav a{
+    text-decoration:none;
+    color:#fff;
+    margin-left:30px;
+    line-height:50px;
+}
+
+.sect{
+    height:100%;   
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.subSect{
+    height:50%;
+    background-color:bisque;
+    text-align: center;
+}
+.sectOne{
+background-image: url("../images/image1.jpg");
+}
+.sectTwo{
+background-image: url("https://58eca9fdf76150b92bfa-3586c28d09a33a8c605ed79290ca82aa.ssl.cf3.rackcdn.com/fender-custom-shop-2015-postmodern-stratocaster-journeyman-relic-olympic-white-maple-340512.jpg");
+}
+.sectThree{
+background-image: url("../images/image3.jpg");
+}
+</style>
+<html>
+<body>
+
+<nav>
+    <a href="#Home">HOME</a>
+    <a href="#Project">PROJECTS</a>
+    <a href="#Contact">CONTACT</a>
+</nav>
+<div class="sect sectOne">
+   <a name="Home"></a> <h1>sG7's Portfolio Page</h1>
+</div>
+<div class="subSect">
+
+
+<div class="row">
+    <div class="col-md-4">
+<a href=#><img class="picborder medpic" src="../images/me.jpg" alt="awesome dude"></a>
+    </div>
+    <div class="col-md-8">
+<h2 class="medfont hometext">My name is sG7.  Welcome to my page.  Here you will be able to learn a little about me and see my work.  If you would like to reach me, feel free to <a href="#Contact">contact</a></h2>
+</div>
+</div>
+</div>
+<div class="sect sectTwo"></div>
+<div class="subSect"><h2>
+<div class="row">
+
+<div class="col-md-4"><a name="Project"></a> <h3 class="projecttitle">Projects:</h3>
+<div class="col-md-8">
+
+</div>
+</div>
+</div>
+
+
+
+<a href="benshapiro.html" target="_blank"><img src="bsthumb.png"></a>
+
+</h2>
+
+</div>
+<div class="sect sectThree">
+</div>
+
+
+
+<a name="Contact"></a><div class="subSect">
+<h3 class="projecttitle">Contact:</h3>
+<button class="btn btn-primary btn-lg"><a href="http://www.linkedin.com/in/michael-biehl">Linkedin</a></button>
+<button class="btn btn-primary"><a href=#>Facebook</a></button>
+<button class="btn btn-primary"><a href=#>Instagram</a></button>
+
+
+
+</div>
+
+
+
+</body>
+</html>
